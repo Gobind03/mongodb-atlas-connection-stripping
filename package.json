@@ -1,0 +1,22 @@
+{
+  "name": "anti-connection-storming-atlas",
+  "version": "1.0.0",
+  "description": "Script to prevent connection storming in Sharded Atlas Clusters",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-datadog": "^0.0.9",
+    "express": "^4.17.1",
+    "faker": "^5.1.0",
+    "hot-shots": "^8.2.0",
+    "mongodb": "^3.6.3",
+    "snappy": "^6.3.5",
+    "winston": "^3.3.3"
+  },
+  "author": "Gobind Singh",
+  "license": "ISC"
+}
